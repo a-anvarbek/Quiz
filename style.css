@@ -81,3 +81,26 @@ section{
     color: blueviolet;
 }
 
+@media (max-width: 1000px){
+    .container{
+        width: 350px;
+        margin: auto;
+    }
+
+    .container .welcome h1{
+        width: 100%;
+        font-size: 1.5em;
+    }
+
+    .container .start-quiz button{
+        font-size: 1.1em;
+    }
+
+    .container .question{
+        font-size: 0.8em;
+    }
+    
+    .container .option button{
+        font-size: 1.1em;
+    }
+}
